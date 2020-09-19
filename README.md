@@ -12,7 +12,7 @@
     }
 ```
 
-接口返回请参照：[wiki-语义理解API定义](http://wiki.hx-ai.com:8090/pages/viewpage.action?pageId=1900586)
+接口返回请参照：[wiki-语义理解API定义]
 
 ## 2 Jar包
 
