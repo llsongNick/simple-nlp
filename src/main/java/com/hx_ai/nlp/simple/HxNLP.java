@@ -1,6 +1,5 @@
 package com.hx_ai.nlp.simple;
 
-import com.hx_ai.nlp.simple.query.stock.StockQuery;
 import com.hx_ai.nlp.simple.query.RadioQuery;
 import com.hx_ai.nlp.simple.query.stock.StockQueryBak;
 import com.hx_ai.nlp.simple.query.tuling.TulingQuery;
@@ -35,7 +34,7 @@ public class HxNLP {
     }
 
     public static void main(String[] args) {
-        HxNLP nlp = new HxNLP("博思软件 当前价格");
+        HxNLP nlp = new HxNLP("天能重工 当前价格");
 //        HxNLP nlp = new HxNLP("暂停");
         String result = nlp.getAnswer();
         System.out.println(result);

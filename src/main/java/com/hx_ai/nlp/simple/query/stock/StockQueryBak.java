@@ -1,10 +1,8 @@
 package com.hx_ai.nlp.simple.query.stock;
 
-import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.http.HttpUtil;
 import com.hx_ai.nlp.simple.utils.ArithUtil;
-import com.hx_ai.nlp.simple.utils.HttpClientUtil;
 import com.hx_ai.nlp.simple.utils.StockProperties;
 import org.json.JSONObject;
 import org.slf4j.Logger;
@@ -83,14 +81,6 @@ public class StockQueryBak {
             }
         }
         return false;
-    }
-
-    private void printParameters() {
-        System.out.println("问    题：" + query);
-        System.out.println("股票名称：" + stockName);
-        System.out.println("股票代码：" + stockCode);
-        System.out.println("时    间：" + new Date(stockDate).toString());
-        System.out.println("属    性：" + stockProp);
     }
 
     private String parseJson(List<String> valueList) {
